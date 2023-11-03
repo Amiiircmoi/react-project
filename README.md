@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # SETUP
 Luca le best <3
-Sean le BG :DDD
+Sean le BG :DDDD
 Copy .env file in a new .env.local file and define the API URL for Instacrame feed to work
 
 ## Available Scripts
