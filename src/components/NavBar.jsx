@@ -15,6 +15,9 @@ const Navbar = () => {
                     <li class="nav-item nav-link">
                         <Link to="/feed">Fil public</Link>
                     </li>
+                    <li class="nav-item nav-link">
+                        <Link to="/like">Like</Link>
+                    </li>
                 </ul>
             </div>
         </nav>
