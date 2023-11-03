@@ -9,7 +9,7 @@ export const getPosts = async () => {
 }
 
 // Envoi d'un nouveau post vers l'API
-export const newPost = async (post) => {
+export const newPost = async (postContent, author) => {
     const request = await axios.post(
         `${process.env.API_URL}/post`
     )

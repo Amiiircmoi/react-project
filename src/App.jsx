@@ -8,6 +8,7 @@ import Navbar from "./components/NavBar";
 // Pages
 import Register from "./pages/Register";
 import Like from "./pages/Like";
+import Feed from "./pages/Feed";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Navbar />
         <Provider store={store}>
           <Routes>
+            <Route path="/feed" element={<Feed />} />
             <Route path="/register" element={<Register />} />
             <Route path="/like" element={<Like />} />
           </Routes>
